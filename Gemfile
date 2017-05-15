@@ -16,7 +16,7 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 
 # make bootstrap available
-gem 'bootstrap-sass', '-> 3.3.7'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 
 # Use Uglifier as compressor for JavaScript assets
