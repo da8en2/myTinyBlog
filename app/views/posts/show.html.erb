@@ -24,7 +24,7 @@
 
   <% @post.comments.each do |comment| %>
     <p>
-      <%= comment.created_at %> <br />
+      <%= comment.created_at.strftime("%A, %d %b %Y %l:%M %p")  %> <br />
       <%= comment.author %> said ... <br />
       <%= comment.comment_entry %>
     </p>
