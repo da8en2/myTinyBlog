@@ -7,7 +7,7 @@
   <div class="panel-group">
     <div class="panel panel-default">
       <div class="panel-heading"><%= post.title %></div>
-      <div class="panel-body">by <%= post.author %> <br/> <%= post.blog_entry %></div>
+      <div class="panel-body"><%= post.author %> on <%= post.created_at %><br/> <%= post.blog_entry %></div>
       <div class="panel-footer">
         <div class="btn-group">
           <%= link_to 'Show', post, :class => "btn btn-primary" %>
