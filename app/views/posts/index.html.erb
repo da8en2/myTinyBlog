@@ -7,7 +7,7 @@
   <div class="panel-group">
     <div class="panel panel-default">
       <div class="panel-heading"><%= post.title %></div>
-      <div class="panel-body"><b><%= post.user.username %></b> on <%= post.created_at.strftime("%A, %d %b %Y at %l:%M %p") %><br/> <%= post.blog_entry %></div>
+      <div class="panel-body"><b><%= image_tag(@post.user.avatar.url, size: "50x50") %><%= post.user.username %></b> on <%= post.created_at.strftime("%A, %d %b %Y at %l:%M %p") %><br/> <%= post.blog_entry %></div>
       <div class="panel-footer">
         <div class="btn-group">
           <%= link_to 'Show', post, :class => "btn btn-primary" %>

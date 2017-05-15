@@ -20,7 +20,9 @@ gem 'bootstrap-sass', '~> 3.3.7'
 
 gem 'local_time', '~> 1.0.3'
 
-gem 'devise', '~> 4.2.1' 
+gem 'devise', '~> 4.2.1'
+
+gem 'carrierwave', '~> 1.1.0'
 
 
 # Use Uglifier as compressor for JavaScript assets
