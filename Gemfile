@@ -24,6 +24,8 @@ gem 'devise', '~> 4.2.1'
 
 gem 'carrierwave', '~> 1.1.0'
 
+gem 'kaminari', '~> 0.17.0'
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

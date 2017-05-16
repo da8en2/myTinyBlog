@@ -20,6 +20,8 @@
 
   <% end %>
 
+  <%= paginate @posts %>
+
 <br>
 
-<%= link_to 'create a new blog post', new_post_path %>
+<%= link_to 'create a new blog post', new_post_path, class: 'btn btn-primary' %>
